@@ -1,13 +1,39 @@
-## Running React on Repl.it
+**Solana Phantom Wallet Integration**
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+**Description:**
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+This React application serves as a guide for integrating with the Solana blockchain using the Phantom wallet provider. It demonstrates key functionalities like wallet creation, connection, SOL token transfers, and balance checks.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+**Table of Contents**
 
-### Getting Started
-- Hit run
-- Edit [App.tsx](#src/App.tsx) and watch it live update!
+* Getting Started
+* Features
+* Dependencies
+* Usage
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+**Getting Started:**
+
+1. **Clone the Repository:** Use `git clone https://github.com/YOUR_USERNAME/solana-phantom-wallet-integration.git` to download the project.
+2. **Install Dependencies:** Navigate to the project directory and run `npm install`.
+3. **Start Development Server:** Execute `npm start` to initiate the server.
+4. **Access Application:** Open http://localhost:3000 in your browser.
+
+**Features:**
+
+* **Solana Account Creation:** Generate a new account, acquire SOL tokens via airdrop, and view wallet details.
+* **Phantom Wallet Connection:** Establish a seamless connection to an existing Phantom wallet.
+* **SOL Token Transfer:** Send SOL tokens to connected wallets or newly created accounts.
+* **Wallet Balance Inquiry:** Retrieve the balance of the currently connected wallet or new account.
+
+**Dependencies:**
+
+* React
+* Solana Web3.js
+* Phantom Wallet
+
+**Usage:**
+
+* **Create New Solana Account:** Click "Create a New Solana Account" to generate an account, acquire SOL tokens, and display account information.
+* **Connect Wallet:** Click "Connect Wallet" to establish a connection with your existing Phantom wallet. This unlocks token transfer and balance check functionalities.
+* **Transfer SOL to New Account:** After creating a new account or connecting a wallet, click "Transfer SOL to New Account" to send SOL tokens to the new account.
+* **Get Wallet Balance:** Click "Get Wallet Balance" to verify the balance of the connected wallet or new account.
